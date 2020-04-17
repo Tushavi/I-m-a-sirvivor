@@ -171,5 +171,9 @@ module.exports = {
 	toss: 'The egg was passed on to [target].',
 	
 	dywy: '胖吉胖吉胖吉猫',
+	
+	abd: '==abd1710',
+	abd1710: ' If you happy https://www.youtube.com/watch?v=9M_FlkAiTSo \nIf you sad https://www.youtube.com/watch?v=kfVsfOSbJY0 \nIf you dad https://www.youtube.com/watch?v=dQw4w9WgXcQ ',
+	
 }
 	
