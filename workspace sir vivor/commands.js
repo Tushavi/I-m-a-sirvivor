@@ -153,6 +153,7 @@ let gameTypes = {
 	holidaysurvivor: ['Holiday Survivor', 'https://sites.google.com/view/survivor-ps/themes-and-events/survivor-themes/holiday-survivor', 'Complete the quest to be the best Holiday Spirit!... Winner of NBT #3!', 2],
  	holiday: 'holidaysurvivor',
 	holidaysurv: 'holidaysurvivor',
+  horse: ['HORSE', 'https://sites.google.com/view/survivor-ps/themes-and-events/survivor-themes/horse?authuser=0', 'Shoot hoops', 1],
 	hotpotato: ['Hot Potato', 'https://sites.google.com/view/survivor-ps/themes-and-events/survivor-themes/hot-potato', 'This be a real hot potato.', 0],
 	hungergames: ['Hunger Games', 'https://sites.google.com/view/survivor-ps/themes-and-events/survivor-themes/hunger-games', 'Classic but with a twist: No alliances.', 0],
 	hg: 'hungergames',
@@ -1465,7 +1466,7 @@ exports.commands = {
 		text += '**Empire:** __Before the game starts, players pick between two empires. The host then makes two PLs based on the players\' choices, and carries out the game as if it were two games, one per empire. The winners of each empire then make it to finals.__';
 		this.say(room, text);
 	},
-	
+
 	triplethreat: function(arg, user, room)
 	{
 		var text = '';
@@ -2296,7 +2297,7 @@ exports.commands = {
     		}
     		if (search) {
 			let found = false;
-			for (let cue of search) { 
+			for (let cue of search) {
 				 if (!searchstr.includes(cue)) found = true;
 			}
 			if (found) continue;
@@ -2483,7 +2484,7 @@ exports.commands = {
 			else user.say('Error connecting to hastebin.');
         });
 	},
-	
+
 	lb: function (target, user, room) {
 		if (room.id !== user.id && !user.hasRank(room.id, '+')) return;
     let isempty = true;
